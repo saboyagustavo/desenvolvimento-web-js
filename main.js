@@ -1,8 +1,9 @@
 
 var pais = 'Brasil'
 var frase = pais + ' é um dos países com maior qualidade de vida do mundo.'
-console.log(frase.replace('Brasil','Canadá'));
+var fraseMaiuscula = frase.toUpperCase();
 
+console.log(fraseMaiuscula.replace('BRASIL','CANADÁ'));
 
 /*var nome = 'Harry';
 var anoNascimento = 1992;
