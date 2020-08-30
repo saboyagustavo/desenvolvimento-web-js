@@ -4,7 +4,7 @@ _Oferecido pela [DIO](https://digitalinnovation.one/) - [Digital Innovation One]
 _Ministrado pelo [Rafael Galleani](https://github.com/rafegal)_
 ## Assuntos gerais abordados no curso
 ### DOM
-- [] alert
+- [x] alert
 - [] replace
 - [] redirect
 - [] date
