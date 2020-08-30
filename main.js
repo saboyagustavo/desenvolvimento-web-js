@@ -1,9 +1,13 @@
+var lista = ['alface','couve','acelga','rúcula','espinafre', 'repolho']
+console.log(lista[0]);
 
+/*
 var pais = 'Brasil'
 var frase = pais + ' é um dos países com maior qualidade de vida do mundo.'
 var fraseMaiuscula = frase.toUpperCase();
 
 console.log(fraseMaiuscula.replace('BRASIL','CANADÁ'));
+*/
 
 /*var nome = 'Harry';
 var anoNascimento = 1992;
