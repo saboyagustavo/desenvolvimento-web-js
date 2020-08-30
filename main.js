@@ -1,0 +1,1 @@
+window.alert("Apareceu esta janela de alerta.");
