@@ -2,8 +2,9 @@ var listaVegetais = ['alface','couve','acelga','rúcula','espinafre', 'repolho']
 listaVegetais.push('cebolinha');
 listaVegetais.reverse();
 listaVegetais.pop();
-console.log(listaVegetais.length);
-console.log(listaVegetais[0]);
+alert(listaVegetais.toString());
+var compras = 'Hoje eu vou comprar ' + listaVegetais.join(', ') + '. Orgânicos e bem baratos!';
+console.log(compras);
 
 /*
 var pais = 'Brasil'

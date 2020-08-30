@@ -26,7 +26,7 @@ _Ministrado pelo [Rafael Galleani](https://github.com/rafegal)_
 ### array e métodos e objects  
 - [x] push; pop e length
 - [x] reverse array
-- [] toString e join
+- [x] toString e join
 ### funções
 - [] function
 ### eventos
