@@ -18,8 +18,8 @@ _Ministrado pelo [Rafael Galleani](https://github.com/rafegal)_
 - [] variáveis locais e globais
 ### Estruturas de controle
 > #### Condicionais
-- [] if
-- [] else
+- [x] if
+- [x] else
 > #### laços e repetição
 - [] for
 - [] while
