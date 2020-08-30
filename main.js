@@ -1,11 +1,27 @@
 //ESTRUTURAS DE CONTROLE
 //IF, ELSE, IF ELSE
-var idade = prompt("Qua sua idade?");
-if (idade >= 18){
-    idade = "maior";
-    prompt("Você têm habilitação?");
-} else {
-    idade = "menor";
+var idade = prompt("Qual sua idade?")
+if (idade >= 18) {
+    var idade = "maior";
+     if (idade == "maior") {
+         var podeDirigir = prompt("Você tem habilitação?");
+            if (podeDirigir == "Sim") {
+                alert("Você pode dirigir!");
+            } else { 
+                alert("Você não pode dirigir!");
+            }
+        }  
+    } else {
+        idade = "menor";
+        alert("Você não pode dirigir!");
+    }
+    /*
+    
+    }
+     else {
+        idade = "menor";
+        alert("Você não pode dirigir!")
+    }
 }
 console.log(idade)
 
