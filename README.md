@@ -11,7 +11,7 @@ _Ministrado pelo [Rafael Galleani](https://github.com/rafegal)_
 - [] getElement
 - [] InnerHTML
 ### Variáveis
-- [] var
+- [x] var
 - [] let
 - [] const
 - [] escopo
