@@ -1,5 +1,9 @@
-var lista = ['alface','couve','acelga','rúcula','espinafre', 'repolho']
-console.log(lista[0]);
+var listaVegetais = ['alface','couve','acelga','rúcula','espinafre', 'repolho'];
+listaVegetais.push('cebolinha');
+listaVegetais.reverse();
+listaVegetais.pop();
+console.log(listaVegetais.length);
+console.log(listaVegetais[0]);
 
 /*
 var pais = 'Brasil'

@@ -24,8 +24,8 @@ _Ministrado pelo [Rafael Galleani](https://github.com/rafegal)_
 - [] for
 - [] while
 ### array e métodos e objects  
-- [] push; pop e length
-- [] reverse array
+- [x] push; pop e length
+- [x] reverse array
 - [] toString e join
 ### funções
 - [] function
