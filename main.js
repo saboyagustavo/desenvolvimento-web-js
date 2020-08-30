@@ -8,7 +8,8 @@ var compras = 'Hoje eu vou comprar ' + listaVegetais.join(', ') + '. Orgânicos 
 
 //Objetos (dicionários)
 var alface = {tipo: 'folhagem', cor:'verde-claro', principalNutriente: 'cálcio'};
-console.log(alface.principalNutriente);
+listaVegetais.push(alface);
+console.log(listaVegetais[6].cor);
 
 /*//VARIÁVEIS
 var pais = 'Brasil'
