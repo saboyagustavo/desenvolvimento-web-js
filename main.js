@@ -1,12 +1,16 @@
+// ARRAYS E MÉTODOS PARA SUA MANIPULAÇÃO
 var listaVegetais = ['alface','couve','acelga','rúcula','espinafre', 'repolho'];
 listaVegetais.push('cebolinha');
 listaVegetais.reverse();
 listaVegetais.pop();
-alert(listaVegetais.toString());
+//alert(listaVegetais.toString());
 var compras = 'Hoje eu vou comprar ' + listaVegetais.join(', ') + '. Orgânicos e bem baratos!';
-console.log(compras);
 
-/*
+//Objetos (dicionários)
+var alface = {tipo: 'folhagem', cor:'verde-claro', principalNutriente: 'cálcio'};
+console.log(alface.principalNutriente);
+
+/*//VARIÁVEIS
 var pais = 'Brasil'
 var frase = pais + ' é um dos países com maior qualidade de vida do mundo.'
 var fraseMaiuscula = frase.toUpperCase();
