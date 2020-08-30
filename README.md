@@ -5,7 +5,7 @@ _Ministrado pelo [Rafael Galleani](https://github.com/rafegal)_
 ## Assuntos gerais abordados no curso
 ### DOM
 - [x] alert
-- [] replace
+- [x] replace
 - [] redirect
 - [] date
 - [] getElement
