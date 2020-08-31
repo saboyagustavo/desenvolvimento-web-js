@@ -4,20 +4,26 @@ function clicou() {
     document.getElementsByTagName('p')[1].innerHTML = "Passe o mouse aqui, por gentileza.";
 }
 function redireciona() {
-    window.open("http://www.google.com")
-    //window.location.href = "https://web.digitalinnovation.one"; // atua na url
+    //window.open("#") //abre em uma nova aba
+    window.location.href ="index.html"; // atua na url
 
 }
-function mudaFrase() {
-    
-        document.querySelector('p.fraseLink').innerHTML = "Obrigado por passar o mouse, se clicar em mim te mando pro google.com";
+function mudaFrase(elemento) {
+    elemento.innerHTML = "Clique aqui para recarregar a página." //"Obrigado por passar o mouse, se clicar em mim te mando pro google.com";
+    //document.querySelector('p.fraseLink').innerHTML = ;
 
 }
-function voltaFrase() {
-        document.querySelector('p.fraseLink').innerHTML = "Passe o mouse aqui, por gentileza.";
+function voltaFrase(elemento) {
+    elemento.innerHTML = "Passe o mouse aqui, por gentileza.";
+    //document.querySelector('p.fraseLink').innerHTML = "Passe o mouse aqui, por gentileza.";
 }
-
-
+function troca(elemento) {
+    var novaPalavra = elemento.value + '';
+   return document.getElementById('hello-world').innerHTML = `<strong>Olá, ${novaPalavra}!</strong>`;
+}
+function carregou(){
+    console.log("página carregada");
+}
 
 /*ESTRUTURAS DE CONTROLE
 // LAÇOS E REPETIÇÃO

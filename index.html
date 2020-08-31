@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeiros Passos com JS</title>
 </head>
-<body>
+<body onload="carregou()">
     <script type="text/javascript" src="main.js"></script>
-    <button type="button" onclick="clicou();">BOTÃO</button>
-    <p class="mostraFrase"></p>
-    <p class="fraseLink" onmouseover="mudaFrase();" onmouseout="voltaFrase();" onclick="redireciona()"></p>
+    <button type="button" onclick="clicou();">CLIQUE PARA DIZER OLÁ</button>
+    <p id="hello-world" class="mostraFrase"></p>
+    <p class="fraseLink" onmouseover="mudaFrase(this);" onmouseout="voltaFrase(this);" onclick="redireciona()"></p>
+    <select id="dropdown" onchange="troca(this);">
+        <option value disabled selected>Selecione para onde vai seu olá</option>
+        <option value="Sol" name="sol">Sol</option>
+        <option value="Lua" name="lua">Lua</option>
+        <option value="Marte" name="marte">Marte</option>
+    </select>
 </body>
 </html>

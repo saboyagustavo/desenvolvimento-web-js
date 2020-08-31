@@ -38,5 +38,5 @@ _Ministrado pelo [Rafael Galleani](https://github.com/rafegal)_
 - [x] onclick
 - [x] onmouseover
 - [x] onmouseout
-- [] onchange
-- [] onload
+- [x] onchange
+- [x] onload
