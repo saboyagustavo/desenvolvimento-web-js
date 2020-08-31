@@ -8,8 +8,8 @@ _Ministrado pelo [Rafael Galleani](https://github.com/rafegal)_
 - [x] replace
 - [] redirect
 - [] date
-- [] getElement
-- [] InnerHTML
+- [x] getElement
+- [x] InnerHTML
 ### Variáveis
 - [x] var
 - [x] let
@@ -30,7 +30,7 @@ _Ministrado pelo [Rafael Galleani](https://github.com/rafegal)_
 ### Funções
 - [x] function
 ### Eventos
-- [] onclick
+- [x] onclick
 - [] onmouseover
 - [] onmouseout
 - [] onchange

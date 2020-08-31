@@ -1,3 +1,11 @@
+//EVENTOS E MÉTODOS
+function clicou() {
+    return document.getElementById('mostraFrase').innerHTML = "<strong>Hello, World!</strong>";
+}
+
+
+
+
 /*ESTRUTURAS DE CONTROLE
 // LAÇOS E REPETIÇÃO
 var count = 0
@@ -10,6 +18,8 @@ for (var i=9; i>=0; i--) {
 } //9 8 7 6 5 4 3 2 1 0
 
 */
+
+/*
 //IF, ELSE, ELSE IF
 //FUNÇÕES
 
