@@ -14,8 +14,8 @@ _Ministrado pelo [Rafael Galleani](https://github.com/rafegal)_
 - [x] var
 - [] let
 - [] const
-- [] escopo
-- [] variáveis locais e globais
+- [x] escopo
+- [x] variáveis locais e globais
 ### Estruturas de controle
 > #### Condicionais
 - [x] if
@@ -28,7 +28,7 @@ _Ministrado pelo [Rafael Galleani](https://github.com/rafegal)_
 - [x] reverse array
 - [x] toString e join
 ### funções
-- [] function
+- [x] function
 ### eventos
 - [] onclick
 - [] onmouseover

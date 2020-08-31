@@ -1,4 +1,4 @@
-//ESTRUTURAS DE CONTROLE
+/*ESTRUTURAS DE CONTROLE
 // LAÇOS E REPETIÇÃO
 var count = 0
 while (count <= 10) {
@@ -9,24 +9,36 @@ for (var i=9; i>=0; i--) {
     console.log(i);
 } //9 8 7 6 5 4 3 2 1 0
 
-/*
+*/
 //IF, ELSE, ELSE IF
-var idade = prompt("Qual sua idade?")
-if (idade >= 18) {
-    var idade = "maior";
-     if (idade == "maior") {
-         var podeDirigir = prompt("Você tem habilitação?");
-            if (podeDirigir == "Sim") {
-                alert("Você pode dirigir!");
-            } else { 
-                alert("Você não pode dirigir!");
-            }
-        }  
-    } else {
-        idade = "menor";
-        alert("Você não pode dirigir!");
-    }
+//FUNÇÕES
 
+function validaIdade(idade) {
+    if (idade >= 18) {
+        var maioridade = true;
+    } else {
+        maioridade = false
+    }
+    return maioridade;
+}
+function checaHabilitacao(cnh) {
+    if (cnh == 'sim' || cnh == 'Sim' || cnh == 'tenho') {
+        return true
+    }
+    else {
+        return false;
+    }
+}
+
+function podeDirigir(validaIdade, checaHabilitacao) {
+    if (validaIdade == true && checaHabilitacao == true) {
+        return "Você pode dirigir!";
+    } else {
+        return "Você não pode dirigir!";
+    }
+}
+
+console.log(podeDirigir(validaIdade(21),checaHabilitacao('tenho')));
 /* ARRAYS E MÉTODOS PARA SUA MANIPULAÇÃO
 var listaVegetais = ['alface','couve','acelga','rúcula','espinafre', 'repolho'];
 listaVegetais.push('cebolinha');
