@@ -1,8 +1,21 @@
 //EVENTOS E MÉTODOS
 function clicou() {
-    return document.getElementById('mostraFrase').innerHTML = "<strong>Hello, World!</strong>";
+    document.querySelector('p.mostraFrase').innerHTML = "<strong>Olá, mundo!</strong>";
+    document.getElementsByTagName('p')[1].innerHTML = "Passe o mouse aqui, por gentileza.";
 }
+function redireciona() {
+    window.open("http://www.google.com")
+    //window.location.href = "https://web.digitalinnovation.one"; // atua na url
 
+}
+function mudaFrase() {
+    
+        document.querySelector('p.fraseLink').innerHTML = "Obrigado por passar o mouse, se clicar em mim te mando pro google.com";
+
+}
+function voltaFrase() {
+        document.querySelector('p.fraseLink').innerHTML = "Passe o mouse aqui, por gentileza.";
+}
 
 
 

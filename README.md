@@ -6,9 +6,14 @@ _Ministrado pelo [Rafael Galleani](https://github.com/rafegal)_
 ### DOM
 - [x] alert
 - [x] replace
-- [] redirect
+- [x] redirect
+> - [x] window.open
+> - [x] window.location
 - [] date
 - [x] getElement
+> - [x] ById
+> - [x] ByTagName
+> - [x] QuerySelector
 - [x] InnerHTML
 ### Variáveis
 - [x] var
@@ -31,7 +36,7 @@ _Ministrado pelo [Rafael Galleani](https://github.com/rafegal)_
 - [x] function
 ### Eventos
 - [x] onclick
-- [] onmouseover
-- [] onmouseout
+- [x] onmouseover
+- [x] onmouseout
 - [] onchange
 - [] onload
