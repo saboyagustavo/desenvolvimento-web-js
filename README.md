@@ -12,24 +12,24 @@ _Ministrado pelo [Rafael Galleani](https://github.com/rafegal)_
 - [] InnerHTML
 ### Variáveis
 - [x] var
-- [] let
-- [] const
+- [x] let
+- [x] const
 - [x] escopo
 - [x] variáveis locais e globais
 ### Estruturas de controle
 > #### Condicionais
 - [x] if
 - [x] else
-> #### laços e repetição
+> #### Laços e repetição
 - [x] for
 - [x] while
-### array e métodos e objects  
+### Arrays e alguns métodos; objects  
 - [x] push; pop e length
 - [x] reverse array
 - [x] toString e join
-### funções
+### Funções
 - [x] function
-### eventos
+### Eventos
 - [] onclick
 - [] onmouseover
 - [] onmouseout

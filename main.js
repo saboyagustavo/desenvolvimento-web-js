@@ -15,12 +15,13 @@ for (var i=9; i>=0; i--) {
 
 function validaIdade(idade) {
     if (idade >= 18) {
-        var maioridade = true;
+        let maioridade = true;
     } else {
         maioridade = false
     }
-    return maioridade;
+    return maioridade; //-> not defined porque está inacessível fora do bloco que a contém.
 }
+
 function checaHabilitacao(cnh) {
     if (cnh == 'sim' || cnh == 'Sim' || cnh == 'tenho') {
         return true
