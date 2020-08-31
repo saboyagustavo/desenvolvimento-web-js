@@ -1,5 +1,16 @@
 //ESTRUTURAS DE CONTROLE
-//IF, ELSE, IF ELSE
+// LAÇOS E REPETIÇÃO
+var count = 0
+while (count <= 10) {
+    console.log(count);
+    count++;
+} //0 1 2 3 4 5 6 7 8 9 10
+for (var i=9; i>=0; i--) {
+    console.log(i);
+} //9 8 7 6 5 4 3 2 1 0
+
+/*
+//IF, ELSE, ELSE IF
 var idade = prompt("Qual sua idade?")
 if (idade >= 18) {
     var idade = "maior";
@@ -15,16 +26,6 @@ if (idade >= 18) {
         idade = "menor";
         alert("Você não pode dirigir!");
     }
-    /*
-    
-    }
-     else {
-        idade = "menor";
-        alert("Você não pode dirigir!")
-    }
-}
-console.log(idade)
-
 
 /* ARRAYS E MÉTODOS PARA SUA MANIPULAÇÃO
 var listaVegetais = ['alface','couve','acelga','rúcula','espinafre', 'repolho'];

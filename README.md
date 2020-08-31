@@ -21,8 +21,8 @@ _Ministrado pelo [Rafael Galleani](https://github.com/rafegal)_
 - [x] if
 - [x] else
 > #### laços e repetição
-- [] for
-- [] while
+- [x] for
+- [x] while
 ### array e métodos e objects  
 - [x] push; pop e length
 - [x] reverse array
