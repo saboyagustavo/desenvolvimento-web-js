@@ -1,11 +1,13 @@
 //EVENTOS E MÉTODOS
+var dataHora = new Date;
 function clicou() {
     document.querySelector('p.mostraFrase').innerHTML = "<strong>Olá, mundo!</strong>";
+    document.getElementById('data').innerHTML = dataHora + '';
     document.getElementsByTagName('p')[1].innerHTML = "Passe o mouse aqui, por gentileza.";
 }
 function redireciona() {
     //window.open("#") //abre em uma nova aba
-    window.location.href ="index.html"; // atua na url
+    window.location.href = "index.html"; // atua na url
 
 }
 function mudaFrase(elemento) {
@@ -19,9 +21,9 @@ function voltaFrase(elemento) {
 }
 function troca(elemento) {
     var novaPalavra = elemento.value + '';
-   return document.getElementById('hello-world').innerHTML = `<strong>Olá, ${novaPalavra}!</strong>`;
+    return document.getElementById('hello-world').innerHTML = `<strong>Olá, ${novaPalavra}!</strong>`;
 }
-function carregou(){
+function carregou() {
     console.log("página carregada");
 }
 
