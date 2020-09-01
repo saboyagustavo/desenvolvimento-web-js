@@ -9,7 +9,7 @@ _Ministrado pelo [Rafael Galleani](https://github.com/rafegal)_
 - [x] redirect
 > - [x] window.open
 > - [x] window.location
-- [] date
+- [x] date
 - [x] getElement
 > - [x] ById
 > - [x] ByTagName
